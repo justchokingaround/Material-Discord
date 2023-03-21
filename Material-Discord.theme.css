@@ -13,6 +13,7 @@
 @import url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/source.css);
 
 :root {
+	--app-font: "Liga SFMono Nerd Font";
 	--accent-hue: 224;
 	--accent-saturation: 71%;
 	--accent-lightness: 61%;
