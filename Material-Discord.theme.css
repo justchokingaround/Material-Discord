@@ -19,11 +19,11 @@
   --alert-button-action-active: 0.2;
   --alert-text-color: hsl(0,0%,100%);
   --success-color: #42be65;
-  --message-radius: 19px;
+  --message-radius: 20px;
   --message-padding-top: 8px;
   --message-padding-side: 12px;
-  --main-textarea-color: var(--input-color);
-  --main-textarea-border: var(--input-border-color);
+  --main-textarea-color: #393939;
+  --main-textarea-border: #be95ff;
   --main-textarea-radius: 24px;
   --media-radius: calc(var(--message-radius) / 1.25);
   --card-radius: 8px;
@@ -76,9 +76,9 @@
   --chat-color: var(--main-color);
   --message-color: hsl(216,7%,14%);
   --message-color-hover: hsl(216,7%,18%);
-  --message-color-alt: hsl(216,7%,13%);
+  --message-color-alt: hsl(0, 3%, 17%);
   --attachment-color: hsl(216,7%,9%);
-  --typing-color: rgba(22,23,26,0.9);
+  --typing-color: #be95ff;
   --popout-color: #2c2f33;
   --popout-color-alt: #202225;
   --popout-header-border: rgba(255,255,255,0.125);
@@ -14893,3 +14893,4 @@ body:active .menu-KSaHL1:not(:active) {
     box-shadow: 0 0 6px hsla(var(--accent-hsl), 0.3);
   }
 }
+
