@@ -18,7 +18,7 @@
   --alert-button-action-hover: 0.1;
   --alert-button-action-active: 0.2;
   --alert-text-color: hsl(0,0%,100%);
-  --success-color: #43b581;
+  --success-color: #42be65;
   --message-radius: 19px;
   --message-padding-top: 8px;
   --message-padding-side: 12px;
@@ -40,10 +40,10 @@
   --popout-radius-big: var(--card-radius-big);
   --avatar-radius: 50%;
   --channel-radius: 21px;
-  --spotify-color: #1db954;
-  --stream-color: #593695;
+  --spotify-color: #42be65;
+  --stream-color: #be95ff;
   --stream-flash: 89,54,149;
-  --xbox-color: #107c10;
+  --xbox-color: #42be65;
   --tooltip-color: hsla(0,0%,38%,0.9);
   --tooltip-text-color: hsl(0,0%,87%);
   --tooltip-font-size: 12px;
@@ -58,14 +58,14 @@
   --scrollbar-width: 10px;
   --scrollbar-thin-width: 6px;
   --window-title-bar: 22px;
-  --window-button-min: #ffbd44;
-  --window-button-max: #00ca4e;
-  --window-button-close: #ff605c;
+  --window-button-min: #ffab91;
+  --window-button-max: #42be65;
+  --window-button-close: #ee5396;
   --code-font: Consolas,Andale Mono WT,Andale Mono,Lucida Console,Lucida Sans Typewriter,DejaVu Sans Mono,Bitstream Vera Sans Mono,Liberation Mono,Nimbus Mono L,Monaco,Courier New,Courier,monospace;
 }
 
 .theme-dark {
-  --main-color: #16171a;
+  --main-color: #161616;
   --main-alt: #0f1012;
   --accent-hsl--material-you: var(--accent-hsl);
   --accent-text-color--material-you: var(--accent-text-color);
@@ -97,7 +97,7 @@
   --menu-item-hover: rgba(255,255,255,0.075);
   --menu-item-select: rgba(255,255,255,0.1);
   --menu-item-select-accent-opacity: 0.3;
-  --menu-item-text-color: #aaa;
+  --menu-item-text-color: red;
   --card-color-outlined: transparent;
   --card-color-filled: hsl(225,6%,13%);
   --card-color-hover: hsl(225,6%,16%);
@@ -126,72 +126,6 @@
   --scrollbar-color: 255,255,255;
   --window-button: rgba(255,255,255,0.1);
   --window-button-inactive: rgba(255,255,255,0.05);
-  --text-brand: hsl(var(--accent-hsl));
-  --text-link: hsl(var(--accent-hsl));
-}
-
-.theme-light {
-  --main-color: #f9f9f9;
-  --main-alt: #e8e8e8;
-  --accent-hsl--material-you: var(--accent-hsl);
-  --accent-text-color--material-you: var(--accent-text-color);
-  --server-color: transparent;
-  --server-folder-color: rgba(0,0,0,0.1);
-  --status-picker-color: #dee0e0;
-  --sidebar-panel-color: #ebeced;
-  --chat-color: var(--main-color);
-  --message-color: hsl(210,4%,90%);
-  --message-color-hover: hsl(210,4%,86%);
-  --message-color-alt: hsl(210,4%,84%);
-  --attachment-color: hsl(210,4%,79%);
-  --main-textarea-color-alt: hsl(0,0%,98%);
-  --typing-color: hsla(0,0%,97.6%,0.9);
-  --popout-color: #fff;
-  --popout-color-alt: #e5e5e5;
-  --popout-header-border: #ccc;
-  --separator-color: rgba(0,0,0,0.195);
-  --header-secondary: #444;
-  --profile-body-background-color: #ededed;
-  --input-color: hsl(0,0%,89%);
-  --input-color-alt: hsl(0,0%,100%);
-  --input-border-color: hsl(0,0%,66%);
-  --input-text-color: hsl(0,0%,17%);
-  --input-placeholder-color: hsl(0,0%,39%);
-  --input-pill-color: hsla(0,0%,0%,0.135);
-  --tab-border-color: #777;
-  --interactive-muted: #999;
-  --text-disabled: #bebebe;
-  --menu-item-hover: rgba(0,0,0,0.1);
-  --menu-item-select: rgba(0,0,0,0.125);
-  --menu-item-select-accent-opacity: 0.4;
-  --menu-item-text-color: #333;
-  --card-color-outlined: transparent;
-  --card-color-filled: hsl(0,0%,92%);
-  --card-color-hover: hsl(0,0%,85%);
-  --card-color-active: hsl(0,0%,80%);
-  --card-color-alt: hsl(0,0%,98%);
-  --card-color-alt-hover: hsl(0,0%,88%);
-  --card-border-color: hsl(0,0%,78%);
-  --card-header-text-color: #333;
-  --card-button-color: rgba(255,255,255,1);
-  --card-button-color-hover: rgb(0,0,0,0.1);
-  --activity-card-color: rgba(0,0,0,0.0785);
-  --activity-card-color--hover: rgba(0,0,0,0.1);
-  --activity-card-color--active: rgba(0,0,0,0.125);
-  --activity-card-color--inset: rgba(255,255,255,0.685);
-  --button-link-color: 0,0%,0%;
-  --button-link-text-color: #333;
-  --button-border-color: #ccc;
-  --switch-knob-color: hsl(0,0%,49%);
-  --switch-slider-color: hsl(0,0%,81%);
-  --switch-slider-color-modal: var(--switch-slider-color);
-  --switch-color-modifier: 1.8;
-  --switch-color-checked: hsla(var(--accent-hsl),0.8);
-  --md-ripple-color: 0,0%,0%;
-  --emoji-category-header: rgba(255,255,255,0.9);
-  --scrollbar-color: 0,0,0;
-  --window-button: rgba(0,0,0,0.2);
-  --window-button-inactive: rgba(0,0,0,0.1);
   --text-brand: hsl(var(--accent-hsl));
   --text-link: hsl(var(--accent-hsl));
 }
@@ -2466,9 +2400,6 @@ html:not(.app-focused) .typeWindows-2-g3UY .winButton-3UMjdg.winButtonMinMax-3Rs
   border-radius: 50%;
 }
 
-.theme-light .PCL--icon {
-  background-color: var(--switch-knob-color);
-}
 
 .PCL--title {
   color: var(--header-primary);
