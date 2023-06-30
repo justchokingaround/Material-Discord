@@ -78,7 +78,7 @@
   --message-color-hover: hsl(216,7%,18%);
   --message-color-alt: hsl(0, 3%, 17%);
   --attachment-color: hsl(216,7%,9%);
-  --typing-color: #be95ff;
+  --typing-color: rgba(22,23,26,0.9);
   --popout-color: #2c2f33;
   --popout-color-alt: #202225;
   --popout-header-border: rgba(255,255,255,0.125);
