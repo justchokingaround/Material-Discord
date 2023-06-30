@@ -1,7 +1,7 @@
 @import url("https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/icons.css");
 :root {
   --app-font: "LigaSF Mono Nerd Font";
-  --app-bg: var(--main-alt);
+  --app-bg: #161616;
   --accent-hue: 224;
   --accent-saturation: 71%;
   --accent-lightness: 61%;
