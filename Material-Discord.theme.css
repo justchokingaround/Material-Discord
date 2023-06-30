@@ -1,6 +1,6 @@
 @import url("https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/icons.css");
 :root {
-  --app-font: "LigaSF Mono Nerd Font";
+  --app-font: "Liga SFMono Nerd Font";
   --app-bg: #161616;
   --accent-hue: 224;
   --accent-saturation: 71%;
@@ -61,7 +61,7 @@
   --window-button-min: #ffab91;
   --window-button-max: #42be65;
   --window-button-close: #ee5396;
-  --code-font: Consolas,Andale Mono WT,Andale Mono,Lucida Console,Lucida Sans Typewriter,DejaVu Sans Mono,Bitstream Vera Sans Mono,Liberation Mono,Nimbus Mono L,Monaco,Courier New,Courier,monospace;
+  --code-font: Liga SFMono Nerd Font;
 }
 
 .theme-dark {
@@ -97,7 +97,7 @@
   --menu-item-hover: rgba(255,255,255,0.075);
   --menu-item-select: rgba(255,255,255,0.1);
   --menu-item-select-accent-opacity: 0.3;
-  --menu-item-text-color: red;
+  --menu-item-text-color: #aaa;
   --card-color-outlined: transparent;
   --card-color-filled: hsl(225,6%,13%);
   --card-color-hover: hsl(225,6%,16%);
